@@ -18,10 +18,12 @@ Maki-PlayerSwapper.zipを解凍し中にあるデータパックをworldフォ�
 
 # データパックの使用方法
 ```mcfunction
+
 # 設定本を入手する
 /loot give @s loot swapper:book
 # ゲームをリセットする
 /function swapper:init
+
 ```
 
 # その他
