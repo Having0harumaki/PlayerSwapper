@@ -23,6 +23,7 @@ Maki-PlayerSwapper.zipを解凍し中にあるデータパックをworldフォ�
 # ゲームをリセットする
 /function swapper:init
 ``
+
 # その他
 バグ報告等は[@Having_harumaki](https://twitter.com/Having_harumaki)まで
 
