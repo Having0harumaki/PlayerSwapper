@@ -18,12 +18,10 @@ Maki-PlayerSwapper.zipを解凍し中にあるデータパックをworldフォ�
 
 # データパックの使用方法
 ```mcfunction
-
-# 設定本を入手する
-/loot give @s loot swapper:book
-# ゲームをリセットする
-/function swapper:init
-
+# プレイヤーのインベントリをストレージに保存する
+data modify storage storage_to_player: value set from entity <対象のプレイヤー> Inventory
+# プレイヤーに装備させたいときにfunctionを実行する
+execute as <対象のプレイヤー> run function storage_to_player:paste
 ```
 
 # その他
