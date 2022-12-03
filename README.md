@@ -19,7 +19,7 @@ Maki-PlayerSwapper.zipを解凍し中にあるデータパックをworldフォ�
 # データパックの使用方法
 ```mcfunction
 # プレイヤーのインベントリをストレージに保存する
-/loot give @s loot swapper:book
+loot give @s loot swapper:book
 # プレイヤーに装備させたいときにfunctionを実行する
 execute as <対象のプレイヤー> run function storage_to_player:paste
 ```
